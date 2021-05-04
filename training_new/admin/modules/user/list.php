@@ -59,7 +59,7 @@
             <?php if (is_supper_admin()){ ?>
             <td>
                 <form method="POST" class="form-delete" action="<?php echo create_link(base_url('admin/index.php'), array('m' => 'user', 'a' => 'delete')); ?>">
-                    <a href="<?php echo create_link(base_url('admin'), array('m' => 'user', 'a' => 'edit', 'id' => $item['id'])); ?>">Edit</a>
+                    <!-- <a href="<?php echo create_link(base_url('admin'), array('m' => 'user', 'a' => 'edit', 'id' => $item['id'])); ?>">Edit</a> -->
                     <input type="hidden" name="user_id" value="<?php echo $item['id']; ?>"/>
                     <input type="hidden" name="request_name" value="delete_user"/>
                     <a href="#" class="btn-submit">Delete</a>
