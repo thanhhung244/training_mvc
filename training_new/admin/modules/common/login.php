@@ -79,5 +79,9 @@ if (is_submit('login'))
             </td>
         </tr>
     </table>
+    <span> Note: login bằng user, pass này a nhé (e tạo tài khoản admin trong bd luôn :D)
+            User: nguyenhung
+            pass: hung
+        </span>
 </form>
 <?php include_once('widgets/footer.php'); ?>
